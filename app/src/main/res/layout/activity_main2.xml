@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Main2Activity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/saoma"
+        android:text="扫码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <EditText
+        android:id="@+id/edit_chazhao"
+        android:hint="请输入要生成的数据"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/shengcheng"
+        android:text="生成二维码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bengkui"
+        android:text="崩溃测试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
